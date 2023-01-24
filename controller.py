@@ -44,8 +44,10 @@ def Menu_selection(item: int):
             model.Save_file(contacts_data, file, save_change)
             exit()
 
+
 file = "bd.json"
 contacts_data = model.Read_file(file)
+
 
 def start():
     while True:
